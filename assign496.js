@@ -10,12 +10,23 @@
 
 // with switch ---- case
 
-let number = 44; 
+// let number = 44; 
 
-switch (true) {
-    case (number >= 100 && number <= 200 && number % 2 === 0):
-        console.log ('Number is even and it is in between 100 & 200');
-        break;
-    default:
-        console.log ('Condition Not Fulfilled');
-}
+// switch (true) {
+//     case (number >= 100 && number <= 200 && number % 2 === 0):
+//         console.log ('Number is even and it is in between 100 & 200');
+//         break;
+//     default:
+//         console.log ('Condition Not Fulfilled');
+// }
+
+
+// with ternary operator
+
+let number = 144;
+
+console.log (
+    number >= 100 && number <= 200 && number % 2 === 0
+    ? console.log ('Number is even and it is in between 100 & 200')
+    : 'Condition Not Fulfilled'
+)

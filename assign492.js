@@ -12,18 +12,30 @@
 
 // with switch ---- case
 
-let number = -90;
+// let number = -90;
 
-switch (true){
-    case (number > 0):
-        console.log('The number is positive.');
-        break;
+// switch (true){
+//     case (number > 0):
+//         console.log('The number is positive.');
+//         break;
 
-    case (number < 0):
-        console.log('The number is negative.');
-        break;
+//     case (number < 0):
+//         console.log('The number is negative.');
+//         break;
 
-    default:
-        console.log('The number is zero.');
+//     default:
+//         console.log('The number is zero.');
       
-}
+// }
+
+// with ternary operator
+
+let number = 0;
+
+console.log (
+    number > 0
+    ? 'The number is positive'
+    : number < 0
+    ? 'The number is negative'
+    : 'The number is zero'
+)
